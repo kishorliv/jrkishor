@@ -1,0 +1,198 @@
+
+.button_1{
+	height: 37px;
+	background: #3a9e8a;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+body{
+	font: 15px/1.5 Helvetica, sans-serif, Arial;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+	color: purple;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*header*/
+header{
+	background: #263f60;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 50px;
+	border-bottom: #ff430f 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a{
+	color: #3a9e8a;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #ff430f;
+	
+}
+
+
+/*showcase*/
+
+#showcase{
+	min-height: 300px;
+	height: 530px;
+	background: url('../img/backgro.jpg') no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: purple;
+}
+
+.circulardiv{
+	border-radius: 50%;
+	float: left;
+}
+
+.mycircle{
+	width: 180px;
+    height: 180px;
+	margin-top: 30px;
+    background: url('../img/mypic.jpg') no-repeat;
+	background-size: cover;
+    border: 2px solid #ff430f;
+}
+
+#designspan{
+	color: #3a9e8a; 
+	font-family: Courier;
+	font-size: 45px;
+}
+
+#contactform{
+	width: 100%;
+	margin-bottom: 1px;
+}
+
+input{
+	font-size: 16px;
+	color: purple;
+}
+
+label{
+	color: #3a9e8a;
+	font-weight: bold;
+}
+
+form input{
+	width: 98%;
+	height: 30px;
+	margin: 2px 0px 2px 0px;
+	padding-left: 10px;
+}
+
+input[type=text]:focus {
+    border: 1px solid cyan;
+}
+
+textarea{
+	width: 99%;
+	height: 100px;
+	margin: 2px 0px 2px 0px;
+	min-height:60px;
+}
+
+.page-title{
+	color: #3a9e8a;
+}
+
+#main p{
+	text-align: justify;
+}
+
+article{
+	background: #e3eae9;
+}
+
+#showcase h1{
+	margin-top: 30px;
+	font-size: 55px;
+	margin-bottom: 0px;
+	color: #379683;
+}
+
+#aftername{
+	margin: 0 auto;
+	padding: 0;
+	color: #379683;
+}
+
+#showcase p{
+	font-size: 16px;
+	text-align: center;
+}
+
+/*newsletter*/
+#newsletter{
+	color: #ffffff;
+	background: #94b5e0;
+}
+
+#newsletter h1{ 
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*footer*/
+footer{
+	padding: 20px;
+	margin: 0px;
+	color: #ffffff;
+	background-color: #263f60;
+	text-align: center;
+}
