@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#playing-area-canvas{
+  background-color: #eee;
+}
+
+h1{
+  margin-left: 100px;
+}
+
+#score-display{
+  margin-left: 100px;
+}
+
+span{
+  font-size: 30px;
+}

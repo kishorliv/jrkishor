@@ -29,11 +29,15 @@ function normalizer(familyTreeList){
 
   for(var i=0; i<familyTreeList.length; i++){
 
-    if(familyTreeList[i].children === undefined){return;}
-
     newObj = {  id: familyTreeList[i].id,
                     name: familyTreeList[i].name,
                     children: []};
+
+    if(familyTreeList[i].children === undefined){
+      newlist.push(newObj);
+      return;
+    }
+
 
     for(var j=0; j<(familyTreeList[i].children).length;j++){
 
