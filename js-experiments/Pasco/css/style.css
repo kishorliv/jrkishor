@@ -9,7 +9,7 @@ div, section{
 }*/
 
 .container{
-  width: 62%;
+  width: 1170px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@ body{
   
   overflow: hidden;
   
-  max-width: 120em;
+  width: 1920px;
   padding: 10px 0px;
 }
 
@@ -75,7 +75,7 @@ body{
   background: url('../images/MaskedheadBg.png');
   /*background-color: gray;*/
   position: relative;
-  max-width: 120em;
+  width: 1920px;
 }
 
 .down-bar{
@@ -123,7 +123,6 @@ body{
 	font-size: 20px;
 	color: white;
 }
-
 
 .dropdown{
   float: left;
@@ -180,7 +179,7 @@ body{
 
 
 .slider-content{
-  width: 69.23%;
+  width: 810px;
   margin: 0 auto;
   text-align: center;
 }
@@ -261,6 +260,7 @@ body{
 
 .sort-div{
   text-transform: uppercase;
+  width: 1920px;
   font-size: 12px;
   color: black;
   background-color: white;
@@ -288,7 +288,6 @@ body{
 	
 }
 
-
 .sort-btn:active{
 	border: 1px solid #333399;
 }
@@ -301,7 +300,6 @@ body{
   width: 13px;
   height: 22px;
   background-size: cover;
-  cursor: pointer;
 }
 
 .right-arrow{
@@ -312,7 +310,6 @@ body{
   width: 13px;
   height: 22px;
   background-size: cover;
-  cursor: pointer;
 }
 
 
@@ -367,7 +364,7 @@ body{
 
 
 .body-section{
-	max-width: 120em;
+	width: 1920px;
 	margin-top: 33px;
 }
 
@@ -377,7 +374,7 @@ body{
 
 .section-left{
 	float: left;
-	width: 71%;
+	width: 820px;
 	overflow: hidden;
 	
 }
@@ -392,6 +389,7 @@ body{
 	background: url('../images/article-1_poster.png');
 	background-size: cover;
 	height: 420px;
+	width: 820px;
 	position: relative;
 	overflow: hidden;
 }
@@ -432,7 +430,7 @@ body{
 
 .post-normal-left-two{
 	float: left;
-	background: url('../images/skate.png');
+	background: url('../images/article-2-2_poster.png');
 	background-size: cover;
 	height: 165px;
 	width: 260px;
@@ -441,7 +439,7 @@ body{
 
 .post-normal-left-three{
 	float: left;
-	background: url('../images/river.png');
+	background: url('../images/article-2-3_poster.png');
 	background-size: cover;
 	height: 165px;
 	width: 260px;
@@ -514,7 +512,7 @@ body{
 	font-weight: 700;
 	color: white;
 	overflow: hidden;
-	width: 96.34%;
+	width: 790px;
 }
 
 .post-info-first a{
@@ -549,21 +547,21 @@ body{
 }
 
 .horizontal-post-one{
-	width: 31.7%;
+	width: 260px;
 	float: left;
 	margin-right: 20px;
 	background-color: white;
 }
 
 .horizontal-post-two{
-	width: 31.7%;
+	width: 260px;
 	float: left;
 	margin-right: 20px;
 	background-color: white;
 }
 
 .horizontal-post-three{
-	width: 31.7%;
+	width: 260px;
 	float: left;
 	background-color: white;
 }
@@ -580,7 +578,7 @@ body{
 
 .post-normal-left-two-horizontal{
 	float: left;
-	background: url('../images/hatGirl.png');
+	background: url('../images/article-3-2_poster.png');
 	background-size: cover;
 	height: 165px;
 	width: 260px; 
@@ -643,14 +641,14 @@ body{
 }
 
 .horizontal-post-another-two{
-	width: 416px;
+	width: 400px;
 	float: left;
 	background-color: white;
 }
 
 .post-normal-left-another-one{
 	float: left;
-	background: url('../images/cloud.png');
+	background: url('../images/article-2-3_poster.png');
 	background-size: cover;
 	height: 300px;
 	width: 400px;
@@ -660,10 +658,10 @@ body{
 
 .post-normal-left-another-two{
 	float: left;
-	background: url('../images/chairGirl.png');
+	background: url('../images/article-2-3_poster.png');
 	background-size: cover;
 	height: 300px;
-	width: 416px;
+	width: 400px;
 	margin-bottom: 14px;
 	position: relative;
 }
@@ -994,12 +992,8 @@ h3 a:hover{
 	margin-top: 40px;
 }
 
-.long-image img{
-	max-width: 118.75em;
-}
-
 .newsletter{
-  max-width: 120em;
+  width: 1920px;
   background: url('../images/subscribeBg.png') no-repeat;
   background-size: cover;
   line-height: 190px;
@@ -1062,7 +1056,7 @@ h3 a:hover{
 }
 
 .footer-main{
-	max-width: 120em;
+	width: 1920px;
 	overflow: hidden;
 }
 
@@ -1274,7 +1268,7 @@ textarea{
 .bottom-footer{
 	background-color: black;
 	overflow: hidden;
-	max-width: 120em;
+	width: 1920px;
 	background-color: #303030;
 }
 
@@ -1317,60 +1311,3 @@ textarea{
 	text-decoration: none;
 	font-size: 14px;
 }
-
-
-
-
-
-/*media queries*/
-@media only screen and (min-width: 375px) and (max-width: 812px){ 
-
-.container{
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.top-bar {
-    overflow: hidden;
-}
-
-.slider-content-up {
-    margin-top: 10px;
-}
-
-.left-arrow{
-  top: 550px;
-  left: 20px;
-
-}
-
-.right-arrow{
-  top: 550px;
-  right: 20px;
-
-}
-
-.section-left{
-	width: 100%;
-}
-
-.first-post{
-	width: 100%;
-}
-
-.sort-div li{
-  display: inline-block;
-  padding-right: 0px;
-}
-
-.long-image img {
-    max-width: 23.75em;
-}
-
-
-
-}
-
-
-

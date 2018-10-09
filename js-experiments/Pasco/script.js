@@ -73,14 +73,3 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 dropdown();
-
-//for video
-var firstPost = document.getElementsByClassName("first-post")[0];
-function playVideo() { 
-    firstPost.play(); 
-} 
-
-
-
-
-
