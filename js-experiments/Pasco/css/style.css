@@ -9,7 +9,7 @@ div, section{
 }*/
 
 .container{
-  width: 1170px;
+  width: 75%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -30,7 +30,7 @@ body{
   
   overflow: hidden;
   
-  width: 1920px;
+  max-width: 120em;
   padding: 10px 0px;
 }
 
@@ -75,7 +75,7 @@ body{
   background: url('../images/MaskedheadBg.png');
   /*background-color: gray;*/
   position: relative;
-  width: 1920px;
+  max-width: 120em;
 }
 
 .down-bar{
@@ -101,7 +101,7 @@ body{
 .nav-bar{
   float:left;
   overflow: hidden;
-  background-color: tramsparent;
+  background-color: transparent;
   font-size: 14px;
   padding-right: 80px;
 }
@@ -123,6 +123,7 @@ body{
 	font-size: 20px;
 	color: white;
 }
+
 
 .dropdown{
   float: left;
@@ -179,7 +180,7 @@ body{
 
 
 .slider-content{
-  width: 810px;
+  width: 69.23%;
   margin: 0 auto;
   text-align: center;
 }
@@ -260,7 +261,6 @@ body{
 
 .sort-div{
   text-transform: uppercase;
-  width: 1920px;
   font-size: 12px;
   color: black;
   background-color: white;
@@ -288,6 +288,7 @@ body{
 	
 }
 
+
 .sort-btn:active{
 	border: 1px solid #333399;
 }
@@ -300,6 +301,7 @@ body{
   width: 13px;
   height: 22px;
   background-size: cover;
+  cursor: pointer;
 }
 
 .right-arrow{
@@ -310,6 +312,7 @@ body{
   width: 13px;
   height: 22px;
   background-size: cover;
+  cursor: pointer;
 }
 
 
@@ -364,7 +367,7 @@ body{
 
 
 .body-section{
-	width: 1920px;
+	max-width: 120em;
 	margin-top: 33px;
 }
 
@@ -374,7 +377,7 @@ body{
 
 .section-left{
 	float: left;
-	width: 820px;
+	width: 69%;
 	overflow: hidden;
 	
 }
@@ -389,7 +392,6 @@ body{
 	background: url('../images/article-1_poster.png');
 	background-size: cover;
 	height: 420px;
-	width: 820px;
 	position: relative;
 	overflow: hidden;
 }
@@ -424,31 +426,31 @@ body{
 	background: url('../images/article-2_poster.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px;
+	width: 32%;
 	position: relative;
 }
 
 .post-normal-left-two{
 	float: left;
-	background: url('../images/article-2-2_poster.png');
+	background: url('../images/skate.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px;
+	width: 32%;
 	position: relative;
 }
 
 .post-normal-left-three{
 	float: left;
-	background: url('../images/article-2-3_poster.png');
+	background: url('../images/river.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px;
+	width: 32%;
 	position: relative;
 }
 
 .post-normal-right{
 	float: right;
-	width: 542px;
+	width: 66%;
 }
 
 .post-inner-up{
@@ -512,7 +514,7 @@ body{
 	font-weight: 700;
 	color: white;
 	overflow: hidden;
-	width: 790px;
+	width: 96.34%;
 }
 
 .post-info-first a{
@@ -547,21 +549,21 @@ body{
 }
 
 .horizontal-post-one{
-	width: 260px;
+	width: 32%;
 	float: left;
-	margin-right: 20px;
+	margin-right: 2%;
 	background-color: white;
 }
 
 .horizontal-post-two{
-	width: 260px;
+	width: 32%;
 	float: left;
-	margin-right: 20px;
+	margin-right: 2%;
 	background-color: white;
 }
 
 .horizontal-post-three{
-	width: 260px;
+	width: 32%;
 	float: left;
 	background-color: white;
 }
@@ -571,17 +573,17 @@ body{
 	background: url('../images/article-3-1_poster.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px; 
+	width: 100%; 
 	margin-bottom: 10px;
 	position: relative;
 }
 
 .post-normal-left-two-horizontal{
 	float: left;
-	background: url('../images/article-3-2_poster.png');
+	background: url('../images/hatGirl.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px; 
+	width: 100%; 
 	margin-bottom: 10px;
 	position: relative;
 }
@@ -591,7 +593,7 @@ body{
 	background: url('../images/article-3-3_poster.png');
 	background-size: cover;
 	height: 165px;
-	width: 260px; 
+	width: 100%; 
 	margin-bottom: 10px;
 	position: relative;
 }
@@ -599,7 +601,7 @@ body{
 
 .inner-small-left-horizontal{
 	overflow: hidden;
-	width: 220px;
+	width: 80%;
 	float: left;
 	padding-left: 15px;
 	padding-bottom: 5px;
@@ -634,34 +636,34 @@ body{
 }
 
 .horizontal-post-another-one{
-	width: 400px;
+	width: 49%;
 	float: left;
 	background-color: white;
-	margin-right: 20px;
+	margin-right: 2%;
 }
 
 .horizontal-post-another-two{
-	width: 400px;
+	width: 49%;
 	float: left;
 	background-color: white;
 }
 
 .post-normal-left-another-one{
 	float: left;
-	background: url('../images/article-2-3_poster.png');
+	background: url('../images/cloud.png');
 	background-size: cover;
 	height: 300px;
-	width: 400px;
+	width: 100%;
 	margin-bottom: 14px;
 	position: relative;
 }
 
 .post-normal-left-another-two{
 	float: left;
-	background: url('../images/article-2-3_poster.png');
+	background: url('../images/chairGirl.png');
 	background-size: cover;
 	height: 300px;
-	width: 400px;
+	width: 100%;
 	margin-bottom: 14px;
 	position: relative;
 }
@@ -705,10 +707,10 @@ h3 a:hover{
 
 .section-right{
 	float: right;
-	width: 270px;
+	width: 22%;
 	background-color: white;
-	padding-left: 40px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	overflow: hidden;
 }
 
@@ -726,7 +728,7 @@ h3 a:hover{
   background-image: url("../images/search.png");
   background-repeat: no-repeat;
   background-position: right;
-  width: 246px;
+  width: 100%;
   padding-left: 20px;
   color: black;
 }
@@ -791,7 +793,7 @@ h3 a:hover{
 }
 
 .subscribe-right input{
-  width:260px;
+  width:100%;
   line-height:45px; 
   background-color: transparent;
   outline: none;
@@ -805,7 +807,7 @@ h3 a:hover{
 
 
  .subscribe-right-btn{
-  width: 268px;
+  width: 100%;
   line-height:44px;
   background-color: #333399;
   color: white;
@@ -836,6 +838,7 @@ h3 a:hover{
 
 .subscribe-right img{
 	padding-top: 20px;
+	width: 100%;
 }
 
 
@@ -902,13 +905,17 @@ h3 a:hover{
 
 .sidebar-post-inner-left{
 	float: left;
-	width: 100px;
+	width: 39%;
+}
+
+.sidebar-post-inner-left img{
+	width: 100%;
 }
 
 .sidebar-post-inner-right{
 	float: right;
-	margin-left: 15px;
-	width: 149px;
+	margin-left: 2%;
+	width: 59%;
 }
 
 .sidebar-inner-up{
@@ -992,48 +999,59 @@ h3 a:hover{
 	margin-top: 40px;
 }
 
+.long-image img{
+	max-width: 100%;
+}
+
 .newsletter{
-  width: 1920px;
+  max-width: 120em;
   background: url('../images/subscribeBg.png') no-repeat;
   background-size: cover;
   line-height: 190px;
   position: relative;  
 } 
 
-.subscribe-text span{
-  color: white;
-  font-size:42px;
-  font-weight: 900;
-  top: 70px;
+.subscribe-text{
+	overflow: hidden;
+}
+
+.sub-text{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    float: left;
+    width: 56%;
 }
 
 .newsletter input{
-  width:270px;
-  line-height:45px;
-  border-radius: 130px; 
-  background-color: transparent;
-  outline: none;
-  padding-left: 10px;
-  font-size: 16px;
-  font-weight: 700;
-  margin-left:60px; 
-  border : 1px solid gray;
-  color: white;
-
+    line-height: 45px;
+    border-radius: 130px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 60px;
+    border: 1px solid gray;
+    color: white;
+    float: right;
+    margin-top: 7%;
+    width: 16%;
 }
 
  .btn-subscribe{
-  width: 170px;
-  line-height:44px;
-  background-color: #333399;
-  color: white;
-  border:none;
-  outline: none;
-  border-radius: 80px;
-  font-size: 18px;
-  font-weight: 700;
-  margin-left: 10px;
- 
+	width: 16%;
+    line-height: 44px;
+    background-color: #333399;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: right;
+    margin-top: 7%;
 }
 
  .btn-subscribe a{
@@ -1056,7 +1074,7 @@ h3 a:hover{
 }
 
 .footer-main{
-	width: 1920px;
+	max-width: 120em;
 	overflow: hidden;
 }
 
@@ -1065,11 +1083,10 @@ h3 a:hover{
 }
 
 .every-footer{
-	/*border: 1px solid blue;*/
-	width: 270px;
-	margin-right: 30px;
-	float: left;
-	margin-top: 25px;
+    width: 23%;
+    margin-right: 2.6%;
+    float: left;
+    margin-top: 25px;
 }
 
 .newsletter-footer{
@@ -1144,7 +1161,7 @@ h3 a:hover{
 }
 
 .twitter-widget div{
-	
+	width: 100%;
 }
 
 .twitter-wrapper-up{
@@ -1209,7 +1226,7 @@ h3 a:hover{
 }
 
 .newsletter-widget input{
-  width:260px;
+  width: 96%;
   line-height:45px; 
   background-color: transparent;
   outline: none;
@@ -1231,7 +1248,7 @@ h3 a:hover{
 }
 
  .newsletter-widget-sub{
-  width: 268px;
+  width: 100%;
   line-height:44px;
   background-color: transparent;
   color: white;
@@ -1257,7 +1274,8 @@ h3 a:hover{
 }
 
 textarea{
-  width: 260px;
+  width: 96%;
+  color: white;
   background-color: transparent;
   border: 1px solid gray;
   padding-left: 5px;
@@ -1268,7 +1286,7 @@ textarea{
 .bottom-footer{
 	background-color: black;
 	overflow: hidden;
-	width: 1920px;
+	max-width: 120em;
 	background-color: #303030;
 }
 
@@ -1311,3 +1329,132 @@ textarea{
 	text-decoration: none;
 	font-size: 14px;
 }
+
+
+
+
+
+/*media queries*/
+@media only screen and (max-width: 400px){ 
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.top-bar {
+    overflow: hidden;
+}
+
+.top-bar-left{
+	padding-left: 10px;
+}
+
+.top-bar-left a:nth-of-type(1n+6) {display: none;}
+
+.down-bar-left{
+    padding-left: 10px;
+}
+
+.down-bar-right{
+	padding-right: 0px;
+}
+
+.nav-bar{
+	padding-right: 0px;
+	padding-left: 10px;
+	width: 100%;
+}
+
+
+.slider-content-up {
+    margin-top: 10px;
+}
+
+.left-arrow{
+  top: 550px;
+  left: 20px;
+
+}
+
+.right-arrow{
+  top: 550px;
+  right: 20px;
+
+}
+
+.section-left{
+	width: 100%;
+}
+
+.first-post{
+	width: 100%;
+}
+
+.sort-div li{
+  display: inline-block;
+  padding-right: 0px;
+}
+
+.long-image img {
+    max-width: 23.75em;
+}
+
+.horizontal-post-one{
+	width: 100%;
+}
+
+.horizontal-post-two{
+	width: 100%;
+}
+
+.horizontal-post-three{
+	width: 100%;
+}
+
+.horizontal-post-another-one{
+	width: 100%
+}
+
+.horizontal-post-another-two{
+	width: 100%
+}
+
+.section-right{
+	float:none;
+	width: 85%;
+}
+
+.subscribe-text{
+	display: none; 
+}
+
+.every-footer{
+	width: 98%;
+    padding-left: 1%;
+}
+
+.flickr-widget img{
+	width: 100%;
+}
+
+.left-bottom-footer{
+	padding-left: 10px;
+}
+
+.right-bottom-footer{
+	float: none;
+}
+
+.right-bottom-footer input{
+	width: 60%;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+
+}
+
+
+
